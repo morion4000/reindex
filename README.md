@@ -25,7 +25,7 @@ Rebalancing can be triggered by calling a public function on the contract. Not s
 
 Rebalancing means selling coins to keep the 70/30 ratio.
 
-e.g. buy 1 BRL70 with 1 eth, get 0.3 eth, 0.001 wbtc, 400 usdc (or cusdc). when I am selling (after a while) all the coins are going to get sold back to eth and I will get back my investment... I think the token needs to be an NFT rather than a ERC20 because it's non-fungible (each token has a different amount of underlying coins).
+e.g. buy 1 REF70 with 1 eth, get 0.3 eth, 0.001 wbtc, 400 usdc (or cusdc). when I am selling (after a while) all the coins are going to get sold back to eth and I will get back my investment... I think the token needs to be an NFT rather than a ERC20 because it's non-fungible (each token has a different amount of underlying coins).
 
 If ERC20, how to take into account the time the token was purchased at? different times, different underlying coins, different values... the price mecanism needs to be complex... can it be a synthetic asset on https://umaproject.org/?
 
