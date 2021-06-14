@@ -1,10 +1,10 @@
-# refund
+# REFund
 
 https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol
 
-Build an ERC20 token that models a retirement fund with 70/30 ratio (stocks/bonds) In the case of crypto stocks are BTC, ETH, etc, and bonds are stable coins.
+Build an ERC20 token that models a retirement fund with 70/30 ratio (stocks/bonds). In the case of crypto stocks are BTC, ETH, etc, and bonds are stable coins.
 
-The token is going to be backed by the underlying coins and can be redeemed at any time.
+The token is going to be backed by the underlying coins and can be redeemed at any time for them.
 
 https://www.tokensets.com/
 https://docs.tokensets.com/set-creation
@@ -15,7 +15,7 @@ Possible structure:
 - 40% btc
 - 30% usdc
 
-The usdc can be cusdc (yield baring usdc). possibly the eth and btc can be on compound as well.
+The usdc can be CUSDC (yield baring USDC). Possibly the ETH and BTC can be on Compound as well.
 
 One token is going to be worth the underlying coins. If I buy one token with eth, the eth will be sold to buy btc and usdc on uniswap.
 
@@ -29,9 +29,9 @@ e.g. buy 1 BRL70 with 1 eth, get 0.3 eth, 0.001 wbtc, 400 usdc (or cusdc). when 
 
 If ERC20, how to take into account the time the token was purchased at? different times, different underlying coins, different values... the price mecanism needs to be complex... can it be a synthetic asset on https://umaproject.org/?
 
-Solution for ERC2: Set an initial price in USD. This means that price discovery will happen on the platform.
+Solution for ERC20: Set an initial price in USD. This means that price discovery will happen on the platform.
 
-Name ideas:
+Domain ideas:
 - refund.io
 - refund.capital
 - recrypto.fund
