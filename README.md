@@ -36,3 +36,7 @@ Domain ideas:
 - refund.capital
 - recrypto.fund
 - re.fund
+
+TODO:
+- [ ] Set up project skeleton https://github.com/austintgriffith/scaffold-eth
+- [ ] Use openzepellin mintable erc20 implementation
