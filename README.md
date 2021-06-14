@@ -35,4 +35,4 @@ Domain ideas:
 - refund.io
 - refund.capital
 - recrypto.fund
-- re70.fund
+- re.fund
