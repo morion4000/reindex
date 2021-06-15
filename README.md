@@ -1,6 +1,8 @@
 # REFund
 ## Unmanaged crypto retirement fund
 
+**Edge over competation**: The advantage of the index is that it generates income on the collateral and it doesn't require active management.
+
 https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol
 
 Build an ERC20 token that models a retirement fund with 70/30 ratio (stocks/bonds). In the case of crypto stocks are BTC, ETH, etc, and bonds are stable coins.
