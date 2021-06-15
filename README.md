@@ -1,7 +1,9 @@
 # REFund
 ## Unmanaged crypto retirement fund
 
-**Edge over competation**: The advantage of the index is that it generates income on the collateral and it doesn't require active management.
+**Edge over competation**: The advantage of the index is that it generates income on the collateral (via yield farming & loans on Compound) and it doesn't require active management.
+
+Scenarios: https://docs.google.com/spreadsheets/d/1jm3khbI_Ms_CZUIN42JXywlw5LTgBV8zSjcSZcc98hM
 
 https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol
 
