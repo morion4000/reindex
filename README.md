@@ -1,7 +1,7 @@
 # REFund
-## Unmanaged crypto retirement fund
+## Unmanaged crypto retirement index fund
 
-**Edge over competation**: The advantage of the index is that it generates income on the collateral (via yield farming & loans on Compound) and it doesn't require active management.
+**Edge over competation**: The advantage of the index fund is that it generates income on the collateral (via yield farming & loans on Compound) and it doesn't require active management.
 
 Scenarios: https://docs.google.com/spreadsheets/d/1jm3khbI_Ms_CZUIN42JXywlw5LTgBV8zSjcSZcc98hM
 
@@ -39,6 +39,7 @@ Solution for ERC20: Set an initial price in USD. This means that price discovery
 Domain ideas:
 - refund.io
 - refund.capital
+- refund.finance
 - recrypto.fund
 - re.fund
 
