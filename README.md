@@ -44,5 +44,6 @@ Domain ideas:
 - re.fund
 
 TODO:
-- [ ] Set up project skeleton https://github.com/austintgriffith/scaffold-eth
-- [ ] Use openzepellin mintable erc20 implementation
+- [*] Set up project skeleton https://github.com/austintgriffith/scaffold-eth
+- [*] Use openzepellin mintable erc20 implementation
+- [ ] How to generate Compound positions and represent them in the index?
