@@ -26,7 +26,7 @@ ERC20 token that models a retirement fund index with fixed ratio (70/30 stocks/b
 - 40% BTC
 - 30% USDC
 
-## Domain ideas (refund|**reindex**|refinance)
+## Domain ideas (refund|reindex|refinance)
 - **reindex.fund**
 - reindex.finance
 - refund.io
