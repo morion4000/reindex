@@ -1,4 +1,4 @@
-# REFund
+# REIndex
 ### Unmanaged crypto retirement index fund
 
 ## Description
@@ -62,7 +62,7 @@ The USDC can be CUSDC (yield baring USDC). Possibly the ETH and BTC can be on Co
 ## Issue / redeem
 One token is going to be worth the underlying coins. When issueing a token with crypto, it will be sold to buy BTC, ETH, and USDC on a DEX. When I redeem it, the underlying coins will be sold back to ETH.
 
-e.g. buy 1 REF70 with 1 ETH, get 0.3 ETH, 0.001 BTC, and 400 USDC
+e.g. buy 1 REI70 with 1 ETH, get 0.3 ETH, 0.001 BTC, and 400 USDC
 
 Issuing/Redeeming is an expensive operation in terms of gas costs. It makes sense financially to bulk issue tokens and supply a liquidity pool on an AMM. The fund creator can bootstrap this at first, and afterwards the market dynamics should keep the supply & demand balanced by third-parties arbitraging (issuing/redeeming tokens for a margin).
 
