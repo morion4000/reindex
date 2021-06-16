@@ -1,54 +1,68 @@
 # REFund
-## Unmanaged crypto retirement index fund
+### Unmanaged crypto retirement index fund
 
-**Edge over competation**: The advantage of the index fund is that it generates income on the collateral (via yield farming & loans on Compound) and it doesn't require active management.
+## Description
+ERC20 token that models a retirement fund index with fixed ratio (70/30 stocks/bonds). In the case of crypto stocks are BTC, ETH, etc, and bonds are stable coins. The token is going to be backed by the underlying coins and can be redeemed at any time for them.
 
-Scenarios: https://docs.google.com/spreadsheets/d/1jm3khbI_Ms_CZUIN42JXywlw5LTgBV8zSjcSZcc98hM
+## Value proposition
+- generates income on the collateral (via yield farming & loans on Compound) 
+- doesn't require active management
+- low/no fees
 
-https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol
+## Math
+- https://docs.google.com/spreadsheets/d/1jm3khbI_Ms_CZUIN42JXywlw5LTgBV8zSjcSZcc98hM
 
-Build an ERC20 token that models a retirement fund with 70/30 ratio (stocks/bonds). In the case of crypto stocks are BTC, ETH, etc, and bonds are stable coins.
+## Standards 
+- ERC20: https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol
 
-The token is going to be backed by the underlying coins and can be redeemed at any time for them.
+## Helpful links:
+- https://www.tokensets.com/
+- https://docs.tokensets.com/set-creation
+- https://docs.umaproject.org/users/mint-farm-yusd
 
-https://www.tokensets.com/
-https://docs.tokensets.com/set-creation
-https://docs.umaproject.org/users/mint-farm-yusd
-
-Possible structure:
+## Structure:
 - 30% eth
 - 40% btc
 - 30% usdc
 
-The usdc can be CUSDC (yield baring USDC). Possibly the ETH and BTC can be on Compound as well.
-
-One token is going to be worth the underlying coins. If I buy one token with eth, the eth will be sold to buy btc and usdc on uniswap.
-
-When I sell the token (redeem it), the underlying coins will be sold back to eth and I will get back my investment.
-
-Rebalancing can be triggered by calling a public function on the contract. Not sooner than 1 week to avoid gas costs.
-
-Rebalancing means selling coins to keep the 70/30 ratio.
-
-e.g. buy 1 REF70 with 1 eth, get 0.3 eth, 0.001 wbtc, 400 usdc (or cusdc). when I am selling (after a while) all the coins are going to get sold back to eth and I will get back my investment... I think the token needs to be an NFT rather than a ERC20 because it's non-fungible (each token has a different amount of underlying coins).
-
-If ERC20, how to take into account the time the token was purchased at? different times, different underlying coins, different values... the price mecanism needs to be complex... can it be a synthetic asset on https://umaproject.org/?
-
-Solution for ERC20: Set an initial price in USD. This means that price discovery will happen on the platform.
-
-Domain ideas (refund/*reindex*/refinance):
+## Domain ideas (refund/*reindex*/refinance)
 - refund.io
 - refund.capital
 - refund.finance
 - recrypto.fund
 - re.fund
 
-Rebalancing:
+## Rebalancing
+Rebalancing can be triggered by calling a public function on the contract. Not sooner than 1 week to avoid gas costs.
+
+Rebalancing means selling coins to keep the 70/30 ratio.
+
 1. Withdraw from COMP
 2. Swap on DEX (via an aggregator as 0x)
 3. Supply on COMP
 
-TODO:
+## Genesis
+1. Initial price in USD for token
+2. First rebalance (to establish weights)
+3. Open COMP loan
+4. Supply coins on COMP
+
+## Price discovery
+If ERC20, how to take into account the time the token was purchased at? different times, different underlying coins, different values... the price mecanism needs to be complex... can it be a synthetic asset on https://umaproject.org/?
+
+Solution for ERC20: Set an initial price in USD. This means that price discovery will happen on the platform.
+
+## Yield
+The usdc can be CUSDC (yield baring USDC). Possibly the ETH and BTC can be on Compound as well.
+
+## Issue / Redeem
+One token is going to be worth the underlying coins. If I issue one token with crypto, it will be sold to buy BTC, ETH, and USDC on a DEX.
+
+When I redeem it, the underlying coins will be sold back to ETH and I will get back my investment.
+
+e.g. buy 1 REF70 with 1 ETH, get 0.3 ETH, 0.001 BTC, and 400 USDC
+
+## TODO
 - [x] Set up project skeleton https://github.com/austintgriffith/scaffold-eth
 - [x] Use openzepellin mintable erc20 implementation
 - [ ] How to generate Compound positions and represent them in the index?
