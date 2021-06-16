@@ -1,4 +1,4 @@
-# REIndex
+# ReIndex
 ### Unmanaged crypto retirement index fund
 
 ## Description
