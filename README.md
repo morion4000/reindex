@@ -1,4 +1,4 @@
-# ReIndex
+# REIndex
 ### Trustless crypto retirement index fund
 
 ## Description
