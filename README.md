@@ -65,7 +65,7 @@ Issuing/Redeeming is an expensive operation in terms of gas costs. It makes sens
 
 ## Upgradeability and trust
 
-How to make it flexibible enough without requiring trust?
+How to make it future-proof without requiring trust?
 
 ## TODO
 - [x] Set up project skeleton https://github.com/austintgriffith/scaffold-eth
