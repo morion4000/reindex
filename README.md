@@ -2,7 +2,7 @@
 ### Unmanaged crypto retirement index fund
 
 ## Description
-ERC20 token that models a retirement fund index with fixed ratio (70/30 stocks/bonds). In the case of crypto stocks are BTC, ETH, etc, and bonds are stable coins. The token is going to be backed by the underlying coins and can be redeemed at any time.
+ERC20 token that models a retirement fund index with fixed ratio (70/30 stocks/bonds). In the case of crypto, stocks are BTC, ETH, etc, and bonds are stable coins. The token is going to be backed by the underlying coins and can be redeemed at any time.
 
 ## Value proposition
 - generates income on the collateral (via yield farming & loans on Compound) 
@@ -54,7 +54,7 @@ If ERC20, how to take into account the time the token was purchased at? differen
 Solution for ERC20: Set an initial price in USD. This means that price discovery will happen on the platform.
 
 ## Yield
-The usdc can be CUSDC (yield baring USDC). Possibly the ETH and BTC can be on Compound as well.
+The USDC can be CUSDC (yield baring USDC). Possibly the ETH and BTC can be on Compound as well.
 
 ## Issue / Redeem
 One token is going to be worth the underlying coins. If I issue one token with crypto, it will be sold to buy BTC, ETH, and USDC on a DEX.
