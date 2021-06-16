@@ -36,12 +36,17 @@ If ERC20, how to take into account the time the token was purchased at? differen
 
 Solution for ERC20: Set an initial price in USD. This means that price discovery will happen on the platform.
 
-Domain ideas:
+Domain ideas (refund/*reindex*/refinance):
 - refund.io
 - refund.capital
 - refund.finance
 - recrypto.fund
 - re.fund
+
+Rebalancing:
+1. Withdraw from COMP
+2. Swap on DEX (via an aggregator as 0x)
+3. Supply on COMP
 
 TODO:
 - [x] Set up project skeleton https://github.com/austintgriffith/scaffold-eth
