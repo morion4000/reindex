@@ -1,5 +1,5 @@
 # ReIndex
-### Unmanaged crypto retirement index fund
+### Trustless crypto retirement index fund
 
 ## Description
 ERC20 token that models a retirement fund index with fixed ratio (70/30 stocks/bonds). In the case of crypto, stocks are BTC, ETH, etc, and bonds are stable coins. The token is going to be backed by the underlying coins and can be redeemed at any time.
