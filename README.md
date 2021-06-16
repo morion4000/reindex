@@ -9,7 +9,7 @@ ERC20 token that models a retirement fund index with fixed ratio (70/30 stocks/b
 - automatic rebalancing
 - generates income on the collateral (via yield farming & loans on Compound) 
 - doesn't require active management
-- low/no fees
+- low fees
 
 ## Math
 - https://docs.google.com/spreadsheets/d/1jm3khbI_Ms_CZUIN42JXywlw5LTgBV8zSjcSZcc98hM
