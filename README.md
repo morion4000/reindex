@@ -67,3 +67,4 @@ e.g. buy 1 REF70 with 1 ETH, get 0.3 ETH, 0.001 BTC, and 400 USDC
 - [x] Set up project skeleton https://github.com/austintgriffith/scaffold-eth
 - [x] Use openzepellin mintable erc20 implementation
 - [ ] How to generate Compound positions and represent them in the index?
+- [ ] Simulate how much a rebalancing costs with different amounts of capital
