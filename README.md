@@ -18,7 +18,6 @@ ERC20 token that models a retirement fund index with fixed ratio (70/30 stocks/b
 - ERC20: https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol
 
 ## Links
-- https://www.tokensets.com/
 - https://docs.tokensets.com/set-creation
 - https://docs.umaproject.org/users/mint-farm-yusd
 
