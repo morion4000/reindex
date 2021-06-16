@@ -6,8 +6,8 @@ ERC20 token that models a retirement fund index with fixed ratio (70/30 stocks/b
 
 ## Value proposition
 - trustless
-- generates income on the collateral (via yield farming & loans on Compound) 
 - automatic rebalancing
+- generates income on the collateral (via yield farming & loans on Compound) 
 - doesn't require active management
 - low/no fees
 
