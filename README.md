@@ -22,9 +22,9 @@ ERC20 token that models a retirement fund index with fixed ratio (70/30 stocks/b
 - https://docs.umaproject.org/users/mint-farm-yusd
 
 ## Structure
-- 30% eth
-- 40% btc
-- 30% usdc
+- 30% ETH
+- 40% BTC
+- 30% USDC
 
 ## Domain ideas (refund|**reindex**|refinance)
 - **reindex.fund**
