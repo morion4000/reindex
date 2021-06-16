@@ -63,9 +63,9 @@ e.g. buy 1 REF70 with 1 ETH, get 0.3 ETH, 0.001 BTC, and 400 USDC
 
 Issuing/Redeeming is an expensive operation in terms of gas costs. It makes sense financially to bulk issue tokens and supply a liquidity pool on an AMM. The fund creator can bootstrap this at first, and afterwards the market dynamics should keep the supply & demand balanced by third-parties arbitraging (issuing/redeeming tokens for a margin).
 
-## Upgradeability / control
+## Upgradeability and trust
 
-???
+How to make it flexibible enough without requiring trust?
 
 ## TODO
 - [x] Set up project skeleton https://github.com/austintgriffith/scaffold-eth
