@@ -56,7 +56,7 @@ Solution for ERC20: Set an initial price in USD. This means that price discovery
 ## Yield
 The USDC can be CUSDC (yield baring USDC). Possibly the ETH and BTC can be on Compound as well.
 
-## Issue / Redeem
+## Issue / redeem
 One token is going to be worth the underlying coins. When issueing a token with crypto, it will be sold to buy BTC, ETH, and USDC on a DEX. When I redeem it, the underlying coins will be sold back to ETH.
 
 e.g. buy 1 REF70 with 1 ETH, get 0.3 ETH, 0.001 BTC, and 400 USDC
