@@ -22,7 +22,7 @@ ERC20 token that models a retirement fund index with fixed ratio (70/30 stocks/b
 - https://docs.tokensets.com/set-creation
 - https://docs.umaproject.org/users/mint-farm-yusd
 
-## Structure:
+## Structure
 - 30% eth
 - 40% btc
 - 30% usdc
