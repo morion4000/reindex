@@ -6,7 +6,7 @@ ERC20 token that models a retirement fund index with fixed ratio (70/30 stocks/b
 ## Value proposition
 - trustless
 - automatic rebalancing
-- generates income on the collateral (via yield farming & loans on Compound) 
+- generates income on the collateral (via yield farming & loans) 
 - doesn't require active management
 - low fees
 
@@ -17,7 +17,7 @@ ERC20 token that models a retirement fund index with fixed ratio (70/30 stocks/b
 - ERC20: https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol
 - Uniswap V3
 - Compound
-- Aave
+- Aave V2
 - Polygon
 
 ## Links
