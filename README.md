@@ -38,8 +38,10 @@ ERC20 token that models a retirement fund index with fixed ratio (70/30 stocks/b
 ## Rebalancing
 Sell coins to keep the genesis ratios. Rebalancing can be triggered by calling a public function on the contract. Not sooner than 1 week to avoid gas costs.
 
-How to offset the cost of gas to the fund?
-How to use DEX APIs without fear of being deprecated?
+#### How to offset the cost of gas to the fund?
+We know the transaction gas price (https://stackoverflow.com/questions/48245051/how-to-get-transaction-cost-in-smart-contract-solidity-ethereum), and we should be able hardcode how much gas the rebalance function uses. Based on these two, we can infer the transaction cost in ETH and refund the cost of the transaction + a nominal fee to the contract caller. 
+
+#### How to use DEX APIs without fear of being deprecated?
 
 1. Withdraw from COMP
 2. Swap on DEX (via an aggregator as 0x)
