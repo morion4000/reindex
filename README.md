@@ -36,9 +36,10 @@ ERC20 token that models a retirement fund index with fixed ratio (70/30 stocks/b
 - re.fund
 
 ## Rebalancing
-Rebalancing can be triggered by calling a public function on the contract. Not sooner than 1 week to avoid gas costs.
+Sell coins to keep the genesis ratios. Rebalancing can be triggered by calling a public function on the contract. Not sooner than 1 week to avoid gas costs.
 
-Rebalancing means selling coins to keep the 70/30 ratio.
+How to offset the cost of gas to the fund?
+How to use DEX APIs without fear of being deprecated?
 
 1. Withdraw from COMP
 2. Swap on DEX (via an aggregator as 0x)
