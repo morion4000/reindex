@@ -42,7 +42,7 @@ Sell coins to keep the genesis ratios. Rebalancing can be triggered by calling a
 We know the transaction gas price (https://stackoverflow.com/questions/48245051/how-to-get-transaction-cost-in-smart-contract-solidity-ethereum), and we should be able hardcode how much gas the rebalance function uses. Based on these two, we can infer the transaction cost in ETH and refund the cost of the transaction + a nominal fee to the caller. 
 
 #### How to use DEX APIs without fear of being deprecated?
-Protocols like Uniswap, Aave always upgrade to newer versions. For example Uniswap has recently upgrade to v3, which includes inceptive for users to upgrade from v2. The old version is still deployed and running, however liquidity providers are slowing going to move away from it. How to be able to upgrade the DEX APIs without having too much control? Would using an aggregator like 0x be an option?
+Protocols like Uniswap, Aave always upgrade to newer versions. For example, Uniswap has recently upgraded to v3, which includes inceptives for users to upgrade from v2. The old version is still deployed and running, however liquidity providers are slowing going to move away from it. How to be able to upgrade the DEX APIs without having too much control? Would using an aggregator like 0x be an option?
 
 #### Procedure
 1. Withdraw from COMP
