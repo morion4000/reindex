@@ -44,7 +44,7 @@ We know the transaction gas price (https://stackoverflow.com/questions/48245051/
 #### How to use DEX APIs without fear of being deprecated?
 Protocols like Uniswap, Aave always upgrade to newer versions. For example, Uniswap has recently upgraded to v3, which includes inceptives for users to upgrade from v2. The old version is still deployed and running, however liquidity providers are slowing going to move away from it. How to be able to upgrade the DEX APIs without having too much control? Would using an aggregator like 0x be an option?
 
-#### Procedure
+#### Operations and cost
 1. Withdraw ETH from COMP (138.300 gas, ~$6)
 2. Withdraw BTC from COMP (138.300 gas, ~$6)
 3. Withdraw USDC from COMP (138.300 gas, ~$6)
@@ -53,7 +53,7 @@ Protocols like Uniswap, Aave always upgrade to newer versions. For example, Unis
 6. Deposit BTC to COMP (160.537 gas, ~$7
 7. Deposit USDC to COMP (160.537 gas, ~$7)
 
-Rebalance cost: >$39
+Cost: >$39
 
 ## Genesis
 1. Initial price in USD for token
