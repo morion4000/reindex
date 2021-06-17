@@ -53,7 +53,7 @@ Protocols like Uniswap, Aave always upgrade to newer versions. For example, Unis
 6. Deposit BTC to COMP (160.537 gas, ~$7
 7. Deposit USDC to COMP (160.537 gas, ~$7)
 
-Cost: >$39
+Cost: >$39 (https://www.gasnow.org/)
 
 ## Genesis
 1. Initial price in USD for token
