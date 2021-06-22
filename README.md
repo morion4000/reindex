@@ -85,6 +85,10 @@ Entry/exit fees?
 
 How to make it future-proof without requiring trust?
 
+## Layer 2 (Polygon)
+
+The index can be published on Polygon instead of L1. There is uncertainty with Polygon as it is quite new and not battle-tested. There is however the advantage of not having to worry about fees for rebalancing as the operation can get very expensive. Issuing/Redeeming can happen on Polygon and the ERC20 token will also have a bridge to Ethereum as well.
+
 ## TODO
 - [x] Set up project skeleton https://github.com/austintgriffith/scaffold-eth
 - [x] Use openzepellin mintable erc20 implementation
