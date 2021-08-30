@@ -94,3 +94,7 @@ The index can be published on Polygon instead of L1. There is uncertainty with P
 - [x] Use openzepellin mintable erc20 implementation
 - [ ] How to generate Compound positions and represent them in the index?
 - [ ] Simulate how much a rebalancing costs with different amounts of capital
+
+## Competition
+- BasketDAO
+- PieDAO
